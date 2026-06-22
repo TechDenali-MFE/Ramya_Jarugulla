@@ -20,6 +20,7 @@ const App: React.FC<AppProps> = ({ options }: any) => {
   return (
     <>
       This is My Widget {options.name} 
+      <br />
       <button onClick={handleIncrease}>
         Increase Counter
       </button>
