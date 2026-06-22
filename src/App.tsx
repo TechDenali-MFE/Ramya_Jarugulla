@@ -10,7 +10,7 @@ const App: React.FC<AppProps> = ({ options }: any) => {
   const handleIncrease = () => {
     const event = new CustomEvent("increase-counter", {
       detail: {
-        value: 1,
+        value: 2,
       },
     });
 
@@ -20,6 +20,7 @@ const App: React.FC<AppProps> = ({ options }: any) => {
   return (
     <>
       This is My Widget {options.name} 
+      <br />
       <button onClick={handleIncrease}>
         Increase Counter
       </button>
