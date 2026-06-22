@@ -10,7 +10,7 @@ const App: React.FC<AppProps> = ({ options }: any) => {
   const handleIncrease = () => {
     const event = new CustomEvent("increase-counter", {
       detail: {
-        value: 2,
+        value: 1,
       },
     });
 
